@@ -1,0 +1,88 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <ImageButton
+            android:id="@+id/image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/baseline_arrow_back_24"/>
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:src="@drawable/square" />
+
+        <!-- Transparent Box View -->
+        <View
+            android:id="@+id/transparent_box"
+            android:layout_width="105dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/rounded_background"
+            android:padding="8dp" />
+        <!-- Text View for Text Overlay -->
+        <TextView
+            android:id="@+id/text_overlay1"
+            android:layout_width="98dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:text="People:\n potato chip\n potato man\n potato girl\n potato boy"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:layout_marginBottom="32.5dp"/>
+        <TextView
+            android:id="@+id/text_overlay2"
+            android:layout_width="98dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:text="Location:\n potato chip\n potato man\n potato girl\n potato boy"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:layout_marginTop="32.5dp"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#80FFFFFF"
+            android:padding="8dp"
+            android:text="Item Name"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_more_horiz_24"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp"
+            android:contentDescription="Menu" />
+    </LinearLayout>
+</LinearLayout>

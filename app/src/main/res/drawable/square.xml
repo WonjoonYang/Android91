@@ -1,0 +1,5 @@
+<!-- square_rectangular_shape.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- Fill color, you can change it to any color you want -->
+    <size android:width="100dp" android:height="100dp" /> <!-- Size of the rectangle, make width and height the same for a square -->
+</shape>

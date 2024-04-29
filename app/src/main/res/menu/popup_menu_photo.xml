@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_add_person"
+        android:title="Add person" />
+    <item
+        android:id="@+id/action_add_location"
+        android:title="Add location" />
+    <item
+        android:id="@+id/action_remove_person"
+        android:title="Remove person" />
+    <item
+        android:id="@+id/action_remove_location"
+        android:title="Remove location" />
+    <item
+        android:id="@+id/action_move"
+        android:title="Move" />
+    <item
+        android:id="@+id/action_delete"
+        android:title="Delete" />
+</menu>
